@@ -13,9 +13,10 @@
 		A6F6B48C27DA8EE2003ACC1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F6B48A27DA8EE2003ACC1E /* Main.storyboard */; };
 		A6F6B48E27DA8EE3003ACC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F6B48D27DA8EE3003ACC1E /* Assets.xcassets */; };
 		A6F6B49127DA8EE3003ACC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F6B48F27DA8EE3003ACC1E /* LaunchScreen.storyboard */; };
-		A6F6B49C27DA8EE3003ACC1E /* AsyncAPODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6B49B27DA8EE3003ACC1E /* AsyncAPODTests.swift */; };
-		A6F6B4A627DA8EE3003ACC1E /* AsyncAPODUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6B4A527DA8EE3003ACC1E /* AsyncAPODUITests.swift */; };
-		A6F6B4A827DA8EE3003ACC1E /* AsyncAPODUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6B4A727DA8EE3003ACC1E /* AsyncAPODUITestsLaunchTests.swift */; };
+		A6F6B4B727DA9311003ACC1E /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6B4B627DA9311003ACC1E /* Worker.swift */; };
+		A6F6B4B927DA96E4003ACC1E /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6B4B827DA96E4003ACC1E /* Downloader.swift */; };
+		A6F6B4BD27DAA3FA003ACC1E /* WorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6B4BC27DAA3FA003ACC1E /* WorkManager.swift */; };
+		A6F6B4BF27DAB913003ACC1E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6B4BE27DAB913003ACC1E /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6F6B48127DA8EE2003ACC1E /* AsyncAPOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAPOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F6B48127DA8EE2003ACC1E /* AsyncDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F6B48427DA8EE2003ACC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F6B48627DA8EE2003ACC1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A6F6B48827DA8EE2003ACC1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +45,12 @@
 		A6F6B48D27DA8EE3003ACC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6F6B49027DA8EE3003ACC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6F6B49227DA8EE3003ACC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6F6B49727DA8EE3003ACC1E /* AsyncAPODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAPODTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6F6B49B27DA8EE3003ACC1E /* AsyncAPODTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAPODTests.swift; sourceTree = "<group>"; };
-		A6F6B4A127DA8EE3003ACC1E /* AsyncAPODUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAPODUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6F6B4A527DA8EE3003ACC1E /* AsyncAPODUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAPODUITests.swift; sourceTree = "<group>"; };
-		A6F6B4A727DA8EE3003ACC1E /* AsyncAPODUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAPODUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6F6B49727DA8EE3003ACC1E /* AsyncDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F6B4A127DA8EE3003ACC1E /* AsyncDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F6B4B627DA9311003ACC1E /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		A6F6B4B827DA96E4003ACC1E /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		A6F6B4BC27DAA3FA003ACC1E /* WorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkManager.swift; sourceTree = "<group>"; };
+		A6F6B4BE27DAB913003ACC1E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,7 @@
 		A6F6B47827DA8EE2003ACC1E = {
 			isa = PBXGroup;
 			children = (
-				A6F6B48327DA8EE2003ACC1E /* AsyncAPOD */,
-				A6F6B49A27DA8EE3003ACC1E /* AsyncAPODTests */,
-				A6F6B4A427DA8EE3003ACC1E /* AsyncAPODUITests */,
+				A6F6B48327DA8EE2003ACC1E /* AsyncDemo */,
 				A6F6B48227DA8EE2003ACC1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,50 +89,37 @@
 		A6F6B48227DA8EE2003ACC1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6F6B48127DA8EE2003ACC1E /* AsyncAPOD.app */,
-				A6F6B49727DA8EE3003ACC1E /* AsyncAPODTests.xctest */,
-				A6F6B4A127DA8EE3003ACC1E /* AsyncAPODUITests.xctest */,
+				A6F6B48127DA8EE2003ACC1E /* AsyncDemo.app */,
+				A6F6B49727DA8EE3003ACC1E /* AsyncDemoTests.xctest */,
+				A6F6B4A127DA8EE3003ACC1E /* AsyncDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6F6B48327DA8EE2003ACC1E /* AsyncAPOD */ = {
+		A6F6B48327DA8EE2003ACC1E /* AsyncDemo */ = {
 			isa = PBXGroup;
 			children = (
 				A6F6B48427DA8EE2003ACC1E /* AppDelegate.swift */,
 				A6F6B48627DA8EE2003ACC1E /* SceneDelegate.swift */,
 				A6F6B48827DA8EE2003ACC1E /* ViewController.swift */,
+				A6F6B4BC27DAA3FA003ACC1E /* WorkManager.swift */,
+				A6F6B4B627DA9311003ACC1E /* Worker.swift */,
+				A6F6B4B827DA96E4003ACC1E /* Downloader.swift */,
+				A6F6B4BE27DAB913003ACC1E /* Store.swift */,
 				A6F6B48A27DA8EE2003ACC1E /* Main.storyboard */,
 				A6F6B48D27DA8EE3003ACC1E /* Assets.xcassets */,
 				A6F6B48F27DA8EE3003ACC1E /* LaunchScreen.storyboard */,
 				A6F6B49227DA8EE3003ACC1E /* Info.plist */,
 			);
-			path = AsyncAPOD;
-			sourceTree = "<group>";
-		};
-		A6F6B49A27DA8EE3003ACC1E /* AsyncAPODTests */ = {
-			isa = PBXGroup;
-			children = (
-				A6F6B49B27DA8EE3003ACC1E /* AsyncAPODTests.swift */,
-			);
-			path = AsyncAPODTests;
-			sourceTree = "<group>";
-		};
-		A6F6B4A427DA8EE3003ACC1E /* AsyncAPODUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A6F6B4A527DA8EE3003ACC1E /* AsyncAPODUITests.swift */,
-				A6F6B4A727DA8EE3003ACC1E /* AsyncAPODUITestsLaunchTests.swift */,
-			);
-			path = AsyncAPODUITests;
+			path = AsyncDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6F6B48027DA8EE2003ACC1E /* AsyncAPOD */ = {
+		A6F6B48027DA8EE2003ACC1E /* AsyncDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6F6B4AB27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncAPOD" */;
+			buildConfigurationList = A6F6B4AB27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncDemo" */;
 			buildPhases = (
 				A6F6B47D27DA8EE2003ACC1E /* Sources */,
 				A6F6B47E27DA8EE2003ACC1E /* Frameworks */,
@@ -142,14 +129,14 @@
 			);
 			dependencies = (
 			);
-			name = AsyncAPOD;
+			name = AsyncDemo;
 			productName = AsyncAPOD;
-			productReference = A6F6B48127DA8EE2003ACC1E /* AsyncAPOD.app */;
+			productReference = A6F6B48127DA8EE2003ACC1E /* AsyncDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6F6B49627DA8EE3003ACC1E /* AsyncAPODTests */ = {
+		A6F6B49627DA8EE3003ACC1E /* AsyncDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6F6B4AE27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncAPODTests" */;
+			buildConfigurationList = A6F6B4AE27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncDemoTests" */;
 			buildPhases = (
 				A6F6B49327DA8EE3003ACC1E /* Sources */,
 				A6F6B49427DA8EE3003ACC1E /* Frameworks */,
@@ -160,14 +147,14 @@
 			dependencies = (
 				A6F6B49927DA8EE3003ACC1E /* PBXTargetDependency */,
 			);
-			name = AsyncAPODTests;
+			name = AsyncDemoTests;
 			productName = AsyncAPODTests;
-			productReference = A6F6B49727DA8EE3003ACC1E /* AsyncAPODTests.xctest */;
+			productReference = A6F6B49727DA8EE3003ACC1E /* AsyncDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6F6B4A027DA8EE3003ACC1E /* AsyncAPODUITests */ = {
+		A6F6B4A027DA8EE3003ACC1E /* AsyncDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6F6B4B127DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncAPODUITests" */;
+			buildConfigurationList = A6F6B4B127DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncDemoUITests" */;
 			buildPhases = (
 				A6F6B49D27DA8EE3003ACC1E /* Sources */,
 				A6F6B49E27DA8EE3003ACC1E /* Frameworks */,
@@ -178,9 +165,9 @@
 			dependencies = (
 				A6F6B4A327DA8EE3003ACC1E /* PBXTargetDependency */,
 			);
-			name = AsyncAPODUITests;
+			name = AsyncDemoUITests;
 			productName = AsyncAPODUITests;
-			productReference = A6F6B4A127DA8EE3003ACC1E /* AsyncAPODUITests.xctest */;
+			productReference = A6F6B4A127DA8EE3003ACC1E /* AsyncDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A6F6B47C27DA8EE2003ACC1E /* Build configuration list for PBXProject "AsyncAPOD" */;
+			buildConfigurationList = A6F6B47C27DA8EE2003ACC1E /* Build configuration list for PBXProject "AsyncDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +206,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6F6B48027DA8EE2003ACC1E /* AsyncAPOD */,
-				A6F6B49627DA8EE3003ACC1E /* AsyncAPODTests */,
-				A6F6B4A027DA8EE3003ACC1E /* AsyncAPODUITests */,
+				A6F6B48027DA8EE2003ACC1E /* AsyncDemo */,
+				A6F6B49627DA8EE3003ACC1E /* AsyncDemoTests */,
+				A6F6B4A027DA8EE3003ACC1E /* AsyncDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,8 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F6B4B927DA96E4003ACC1E /* Downloader.swift in Sources */,
 				A6F6B48927DA8EE2003ACC1E /* ViewController.swift in Sources */,
+				A6F6B4BF27DAB913003ACC1E /* Store.swift in Sources */,
 				A6F6B48527DA8EE2003ACC1E /* AppDelegate.swift in Sources */,
+				A6F6B4BD27DAA3FA003ACC1E /* WorkManager.swift in Sources */,
+				A6F6B4B727DA9311003ACC1E /* Worker.swift in Sources */,
 				A6F6B48727DA8EE2003ACC1E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F6B49C27DA8EE3003ACC1E /* AsyncAPODTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F6B4A627DA8EE3003ACC1E /* AsyncAPODUITests.swift in Sources */,
-				A6F6B4A827DA8EE3003ACC1E /* AsyncAPODUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +274,12 @@
 /* Begin PBXTargetDependency section */
 		A6F6B49927DA8EE3003ACC1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6F6B48027DA8EE2003ACC1E /* AsyncAPOD */;
+			target = A6F6B48027DA8EE2003ACC1E /* AsyncDemo */;
 			targetProxy = A6F6B49827DA8EE3003ACC1E /* PBXContainerItemProxy */;
 		};
 		A6F6B4A327DA8EE3003ACC1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6F6B48027DA8EE2003ACC1E /* AsyncAPOD */;
+			target = A6F6B48027DA8EE2003ACC1E /* AsyncDemo */;
 			targetProxy = A6F6B4A227DA8EE3003ACC1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,7 +492,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncAPOD.app/AsyncAPOD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncDemo.app/AsyncDemo";
 			};
 			name = Debug;
 		};
@@ -524,7 +512,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncAPOD.app/AsyncAPOD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncDemo.app/AsyncDemo";
 			};
 			name = Release;
 		};
@@ -567,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6F6B47C27DA8EE2003ACC1E /* Build configuration list for PBXProject "AsyncAPOD" */ = {
+		A6F6B47C27DA8EE2003ACC1E /* Build configuration list for PBXProject "AsyncDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6F6B4A927DA8EE3003ACC1E /* Debug */,
@@ -576,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6F6B4AB27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncAPOD" */ = {
+		A6F6B4AB27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6F6B4AC27DA8EE3003ACC1E /* Debug */,
@@ -585,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6F6B4AE27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncAPODTests" */ = {
+		A6F6B4AE27DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6F6B4AF27DA8EE3003ACC1E /* Debug */,
@@ -594,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6F6B4B127DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncAPODUITests" */ = {
+		A6F6B4B127DA8EE3003ACC1E /* Build configuration list for PBXNativeTarget "AsyncDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6F6B4B227DA8EE3003ACC1E /* Debug */,
